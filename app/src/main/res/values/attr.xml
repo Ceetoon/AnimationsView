@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DisScrollViewContent_Layout">
+        <attr name="disscrollview_alpha" format="boolean"></attr>
+        <attr name="disscrollview_scaleX" format="boolean"></attr>
+        <attr name="disscrollview_scaleY" format="boolean"></attr>
+        <attr name="disscrollview_fromBg" format="color"></attr>
+        <attr name="disscrollview_toBg" format="color"></attr>
+        <attr name="disscrollview_translation"></attr>
+    </declare-styleable>
+    <attr name="disscrollview_translation">
+        <flag name="fromLeft" value="0x01"></flag>
+        <flag name="fromTop" value="0x02"></flag>
+        <flag name="fromBottom" value="0x04"></flag>
+        <flag name="fromRight" value="0x08"></flag>
+    </attr>
+
+</resources>
